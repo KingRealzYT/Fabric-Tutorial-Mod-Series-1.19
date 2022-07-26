@@ -1,5 +1,6 @@
 package dev.realz.tutorial;
 
+import dev.realz.tutorial.init.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 public class Tutorial implements ModInitializer {
@@ -8,6 +9,6 @@ public class Tutorial implements ModInitializer {
 
     @Override
     public void onInitialize() {
-
+        ModItems.registerIngots();
     }
 }
