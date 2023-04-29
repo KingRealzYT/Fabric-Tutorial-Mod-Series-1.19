@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     // Ingots
-    public static final Item BLACK_IRON_INGOT = new Item(new Item.Settings().maxCount(16).group(ItemGroup.MISC));
+    public static final Item BLACK_IRON_INGOT = new Item(new Item.Settings().maxCount(16).group(Tutorial.TUTORIALTAB));
 
     // Ingot Register
     public static void registerIngots() {

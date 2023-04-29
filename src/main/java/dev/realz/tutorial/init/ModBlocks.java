@@ -19,7 +19,7 @@ public class ModBlocks {
     public static void registerOres() {
         Registry.register(Registry.BLOCK, new Identifier(Tutorial.MOD_ID, "black_iron_ore"), BLACK_IRON_ORE);
         Registry.register(Registry.ITEM, new Identifier(Tutorial.MOD_ID, "black_iron_ore"),
-                new BlockItem(BLACK_IRON_ORE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+                new BlockItem(BLACK_IRON_ORE, new FabricItemSettings().group(Tutorial.TUTORIALTAB)));
     }
 
 }
